@@ -1,0 +1,67 @@
+.list-item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.list-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.track-image {
+  height: 100px;
+  width: 150px;
+  padding-right: 10px;
+}
+
+.name-genre-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.genre {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #3b82f6;
+}
+
+.duration-delete-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 8%;
+}
+
+.duration {
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.delete-icon-button {
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.delete-icon {
+  height: 20px;
+  color: #ffffff;
+}
